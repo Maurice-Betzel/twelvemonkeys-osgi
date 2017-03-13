@@ -6,7 +6,7 @@
         <bundle start-level="30">mvn:org.apache.aries/org.apache.aries.util/1.1.1</bundle>
         <bundle start-level="30">mvn:org.ow2.asm/asm-all/5.0.4</bundle>
         <bundle start-level="50">mvn:net.betzel.imageio.osgi/publisher/${project.version}</bundle>
-        <bundle start-level="50">mvn:net.betzel.imageio.osgi/consumer/${project.version}</bundle>
+        <bundle start-level="80">mvn:net.betzel.imageio.osgi/consumer/${project.version}</bundle>
     </feature>
 
 </features>
