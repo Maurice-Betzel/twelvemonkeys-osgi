@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<features name="twelvemonkeys-osgi-features-${project.version}" xmlns="http://karaf.apache.org/xmlns/features/v1.4.0">
+
+    <feature name="twelvemonkeys-osgi" version="${project.version}">
+        <bundle start-level="30">mvn:org.apache.aries.spifly/org.apache.aries.spifly.dynamic.bundle/1.0.8</bundle>
+        <bundle start-level="30">mvn:org.apache.aries/org.apache.aries.util/1.1.1</bundle>
+        <bundle start-level="30">mvn:org.ow2.asm/asm-all/5.0.4</bundle>
+        <bundle start-level="50">mvn:net.betzel.imageio.osgi/publisher/${project.version}</bundle>
+        <bundle start-level="50">mvn:net.betzel.imageio.osgi/consumer/${project.version}</bundle>
+    </feature>
+
+</features>
